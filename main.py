@@ -596,7 +596,9 @@ while main_running:
 
         # gambar UI (health, skor, level)
         game.draw_hud(screen, player, level, start_time)
-        
+
+        pygame.display.flip()
+
         # update tampilan ke layar
 
     if main_running:
