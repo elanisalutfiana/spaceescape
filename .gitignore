@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm / IDE
+.idea/
+.vscode/
+
+# Game Data (Opsional: skor lokal Anda)
+highscore.txt
+
+# OS temp files
+.DS_Store
+Thumbs.db
